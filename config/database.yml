@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: tsevi_development
+  pool: 5
+  host: localhost
+  username: tsevi
+  password: tsevi
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: tsevi_test
+  pool: 5
+  host: localhost
+  username: tsevi
+  password: tsevi
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: tsevi
+  pool: 5
+  host: localhost
+  username: tsevi
+  password: tsevi
