@@ -50,3 +50,6 @@ gem "figaro"
 gem 'omniauth-github'
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
+
+# prevent rack attacks from requests
+gem 'rack-attack'
