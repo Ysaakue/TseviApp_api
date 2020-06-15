@@ -45,3 +45,8 @@ gem 'devise_token_auth'
 
 # Keep safe sesitive data
 gem "figaro"
+
+# OmniAuth authetication
+gem 'omniauth-github'
+gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
