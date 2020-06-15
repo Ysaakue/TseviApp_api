@@ -1,0 +1,8 @@
+pt:
+  ola: "Olá Mundo"
+  devise:
+    mailer:
+      confirmation_instructions:
+        subject: "Por favor confirme seu endereço de email"
+      reset_password_instructions:
+        subject: "Solicitação de mudança de senha"
