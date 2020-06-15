@@ -112,5 +112,8 @@ Rails.application.configure do
     password:             ENV["email_password"],
     authentication:       'plain',
     enable_starttls_auto: true
-  }
+	}
+	
+	# Set default host
+	config.action_mailer.default_url_options = { :host => "www.yourhost.com" }
 end
